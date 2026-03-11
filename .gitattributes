@@ -1,11 +1,12 @@
-# ShaderLab dosyalarını istatistiklerden çıkar
+# Tüm shader ve grafik dosyalarını istatistiklerden temizle
 *.shader linguist-vendored
+*.hlsl linguist-vendored
 *.cginc linguist-vendored
 *.compute linguist-vendored
 
-# Unity'nin otomatik oluşturduğu tüm meta dosyalarını gizle
+# Unity meta dosyalarını sayma
 *.meta linguist-vendored
 
-# Paketleri ve eklentileri (Plugins) istatistikten düş
-Assets/Plugins/** linguist-vendored
-Packages/** linguist-vendored
+# Proje ayarlarını (Yaml dosyalarını) sayma
+*.asset linguist-vendored
+*.unity linguist-vendored
